@@ -1,0 +1,652 @@
+@media (min-width: 320px) and (max-width: 1200px) {
+
+
+    .header-nav ul li a {
+        margin-right: 30px;
+        font-size: 12px;
+    }
+
+    .header {
+        padding: 23px 0;
+    }
+
+    .search-form {
+        max-width: 830px;
+    }
+
+    .form-item .btn {
+        width: 58px;
+        height: 46px;
+        margin-left: 9px;
+        font-size: 17px;
+    }
+
+    .common-content h2 {
+        font-size: 38px;
+        line-height: 110%;
+    }
+
+    .common-content h5 {
+        font-size: 19px;
+    }
+
+    .text-link {
+        font-size: 13.233px;
+    }
+
+    .medical-item {
+        padding: 18px 21px;
+    }
+
+    .hospitals-left-wrap {
+        max-width: 490px;
+        padding-top: 8px;
+    }
+
+    .hospitals-right {
+        padding: 27px 32px;
+        width: 355px;
+    }
+
+    .video-wrapper {
+        height: 520px;
+        border-radius: 30px;
+    }
+
+    .blog-card {
+        border-radius: 17px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .blog-card-link a {
+        padding: 12px 16px;
+    }
+
+    .footer-logo {
+        max-width: 200px;
+    }
+
+    .footer-item {
+        padding-top: 2px;
+        padding-left: 14px;
+    }
+
+
+    .blg__wrp {
+        max-width: 100%;
+    }
+
+    .blg__blk {}
+
+    .portal_blk__text {
+        padding-right: 20px;
+    }
+
+    .portal_left img {
+        width: 85%;
+        text-align: center;
+    }
+
+    .portal_left i {
+        margin-left: -20px;
+    }
+
+    .portal_right {
+        padding: 50px 0;
+    }
+
+    .portal_left {
+        align-items: center;
+        height: 100%;
+        display: flex;
+    }
+
+    .medico_blk {
+        padding: 30px 20px;
+    }
+
+    .marketplace_left i img {
+        max-width: 90%;
+        object-fit: cover;
+    }
+
+   
+}
+@media screen and (max-width: 992px) {
+    #angeles-digital .app_Info h2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 122.5%;
+        color: #000000;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+    .menu-open {
+        display: block;
+    }
+
+    .header-nav {
+        display: none !important;
+    }
+
+    .header-logo {
+        max-width: 200px;
+    }
+
+
+    .search-form {
+        max-width: 580px;
+    }
+
+    .search-form {
+        border-radius: 16px;
+        padding: 18px;
+        margin-top: -23px;
+    }
+
+    .hospital__map__blk div iframe {
+        height: 490px;
+    }
+
+    .search-tags button {
+        font-size: 12px;
+        line-height: 16px;
+        padding: 9px 14px;
+        margin: 0 6px;
+        margin-bottom: 9px;
+        border-radius: 5px;
+    }
+
+    .hero-thumb {
+        margin-top: 16px;
+        margin-bottom: 0px;
+    }
+
+    .search-form-main .col-md-4 {
+        width: 100%;
+    }
+
+    .form-item {
+        margin-bottom: 10px;
+    }
+
+
+    .search-form-main .row {
+        margin: 0 auto;
+        max-width: 300px;
+        margin-bottom: 12px;
+        margin-top: 3px;
+    }
+
+    .search-form-main.border-0 .row {
+        max-width: 100%;
+    }
+
+    .form-item.d-flex {
+        display: block !important;
+    }
+
+    .form-item .btn {
+        width: 99%;
+        height: 46px;
+        margin-left: 2px;
+        font-size: 19px;
+        margin-top: 14px;
+    }
+
+    .search-form-main.border-0 .row {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .search-form-main.border-0 .form-item.d-flex {
+        display: block !important;
+    }
+
+    .search-form-main.border-0 .form-item .btn {
+        width: 50px;
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .video-play {
+        max-width: 60px;
+    }
+
+    .video-wrapper {
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .section-title {
+        padding-bottom: 30px;
+    }
+
+    .service-slider-two.second {
+        padding-left: 85px;
+    }
+
+    .app-content {
+        max-width: 451px;
+        padding: 45px;
+    }
+
+    .app-thumb {
+        text-align: center;
+        margin-top: 0;
+        position: absolute;
+        right: 20px;
+        bottom: 0;
+        max-width: 326px;
+    }
+
+    .app-wrapper .col-md-6:last-child {
+        order: -1;
+    }
+
+
+    .service-area {
+        overflow: hidden;
+        padding-bottom: 55px;
+    }
+
+    .hospitals-wrapper {
+        display: block;
+    }
+
+    .hospitals-right {
+        padding: 24px 28px;
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        overflow: hidden;
+    }
+
+    .hospitals-left {
+        border-radius: 30px 30px 0 0;
+        padding: 38px 27px;
+        width: 100%;
+    }
+
+    .hospitals-left-wrap {
+        max-width: 100%;
+        padding-top: 7px;
+    }
+
+    .footer {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+
+    .blg__blk {
+        width: 295px;
+        margin: 12px;
+    }
+
+    .blg__wrp {
+        justify-content: center;
+        max-width: 700px;
+    }
+
+    .portal_left {
+        display: none;
+    }
+
+    .portal_right {
+        max-width: 529px;
+        margin: auto;
+    }
+
+    .medico_blk:nth-child(2) {
+        margin-left: 0;
+    }
+
+    .medico_left {
+        flex-direction: unset;
+        flex-wrap: wrap;
+    }
+
+    .medico_blk {
+        margin-top: 20px;
+    }
+
+    .medico-Area .row:last-child {
+        flex-direction: column-reverse;
+    }
+
+    .medico_Right {
+        text-align: center;
+    }
+
+    .marketplace_img img {
+        margin-bottom: -576px;
+    }
+
+    .marketplace_right {
+        padding: 40px 0;
+        margin-left: 30px;
+        width: max-content;
+    }
+
+    .dif__doctor__btn {
+        gap: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .blog-area .common-content.section-title {
+        text-align: center;
+    }
+
+    .blog-card {
+        max-width: 335px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding: 18px;
+    }
+
+    .section-padding {
+        padding: 80px 0;
+    }
+
+    .services-wrapper {
+        display: none;
+    }
+
+    .hospital__map__blk div iframe {
+        height: 233px;
+    }
+
+    .service-cards-mobile {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .app-wrapper {
+        background: #EFF4FF;
+        border-radius: 35px;
+        position: relative;
+        padding: 22px;
+        padding-bottom: 0;
+    }
+
+    .footer-logo {
+        max-width: 200px;
+        margin-bottom: 32px;
+    }
+
+    .footer-item {
+        padding-top: 2px;
+        padding-left: 6px;
+    }
+
+    .app_stor {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    a.mx-3 {
+        margin-right: 0 !important;
+    }
+
+    .apps_left a.common-btn.thm_btn {
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .blg__blk i {
+        width: 85px;
+        height: 85px;
+    }
+
+    section.blg__area.section-padding {
+        padding: 30px 0;
+    }
+
+    .portal_blk {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .portal_blk__text {
+        padding-right: 0;
+    }
+
+    .portal_right.common-content.same_section {
+        text-align: center;
+        padding: 30px 0 50px;
+    }
+
+    .same_section>p {
+        margin: auto;
+    }
+
+    .portal_blk i {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .common-content.medico_title {
+        margin-bottom: 30px;
+    }
+
+    section.medico-Area.section-padding {
+        padding: 30px 0;
+    }
+
+    section.marketplace-Area {
+        margin: 0;
+    }
+
+    .marketplace_right.common-content.same_section .portal_blk {
+        text-align: left;
+        flex-direction: unset;
+    }
+
+    .marketplace_right.common-content.same_section .portal_blk i {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+
+    .marketplace_right {
+        margin-left: 0;
+    }
+
+    .ds_two {
+        display: block;
+    }
+
+    img.ds_one {
+        display: none;
+    }
+
+    .marketplace_img img {
+        margin-bottom: 30px;
+        object-fit: cover;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .common-content.Directorio_title {
+        margin-bottom: 70px;
+    }
+
+    section.Directorio-Area.section-padding {
+        padding: 50px 0;
+    }
+
+    .copyright {
+        text-align: center;
+    }
+
+    img.appsPhon {
+        display: none;
+    }
+
+    img.appsPhonMobile {
+        display: block;
+        margin: auto;
+    }
+
+    section.app_Info {
+        margin-top: 30px;
+    }
+
+    .common-content.Directorio_title {
+        margin-bottom: 30px;
+    }
+
+    a.common-btn.thm_btn {
+        margin-top: 0;
+    }
+
+    .search-form-main.border-0 .form-item.d-flex {
+        display: block !important;
+    }
+
+    .search-form-main.border-0 .form-item .btn {
+        width: 100%;
+        margin: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search-form-main.border-0 .form-control {
+        margin-bottom: 10px;
+    }
+
+    .galler__hover__content {
+        border-radius: 10px;
+    }
+
+    .popup__thumb img {
+        border-radius: 10px;
+    }
+
+    .special__top__blk {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .spe_ico img {
+        height: 36px;
+    }
+    .special__title h4 {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .special__search {
+        max-width: 295px;
+        flex-direction: column;
+    }
+
+    .special__search button {
+        margin: 0;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .special__title h4 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    .service-card {
+        flex-direction: column;
+    }
+
+    .none_dsk {
+        display: block;
+    }
+
+    .sp_inner_blk {
+        padding: 29px 40px;
+    }
+
+    .service-card-thumb {
+        width: 100%;
+        height: 215px;
+        flex: 0 0 auto;
+        border-radius: 17px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-bottom: 19px;
+    }
+
+
+    .medical-item-content p {
+        margin-bottom: 18px;
+        min-height: auto;
+    }
+
+    .hospitals-right {
+        padding: 21px 22px;
+    }
+
+    .single_doctor_box {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 260px;
+        margin: 0 auto;
+    }
+
+    .single_dr_thumb img {
+        width: 100%;
+    }
+
+    .single_dr_thumb {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .single_dr_title {
+        text-align: center;
+    }
+
+    .doc__title {
+        text-align: center;
+    }
+
+    .hero-thumb.r_border img {
+        border-radius: 15px;
+    }
+
+    .video-play {
+        max-width: 52px;
+    }
+
+    .video-wrapper {
+        height: auto;
+        border-radius: 22px;
+    }
+
+    .common-content h2 {
+        font-size: 35px;
+        line-height: 109%;
+    }
+
+    .search-form-main .row {
+        max-width: 100%;
+        margin-bottom: 12px;
+        margin-top: 3px;
+    }
+
+    .slider-area {
+        padding-top: 46px;
+        padding-bottom: 60px;
+    }
+
+    .breadcrumb__area {
+        height: 375px;
+    }
+}
