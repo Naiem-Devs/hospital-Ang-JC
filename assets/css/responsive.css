@@ -558,6 +558,7 @@
     }
 }
 
+
 @media (min-width: 320px) and (max-width: 575px) {
 
     .service-card {
@@ -650,3 +651,153 @@
         height: 375px;
     }
 }
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .Farmacia_slider .slide-item {
+        width: 100%;
+    }
+    section.slider-area.v2 .slide-item {
+        height: 350px;
+    }
+    .medi__blk > i {
+        width: 100%;
+        height: 225px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    section.slider-area.v2 .slide-item {
+        height: 335px;
+    }
+    .Farmacia_slider .slide-item {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .content__center {
+        padding-left: 30px;
+    }
+    
+    .apps__right {
+        padding-right: 20px;
+    }
+    .input_blk {
+        flex: 0 0 31%;
+    }
+    .input_blk textarea{
+    height: 200px;
+}
+.Farmacia_slider .slide-item {
+    width: 100%;
+}
+section.slider-area.v2 .slide-item{
+    height: 350px;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    section.slider-area.v2 .slide-item {
+        height: 270px;
+    }
+    
+    .product_blk {
+        height: auto;
+        max-width: 420px;
+        margin-inline: auto;
+        min-height: auto;
+    }
+    
+    .apps__right {
+        display: none;
+    }
+    
+    .apps_left-v2 {
+        max-width: 90%;
+        text-align: center;
+    }
+    
+    .content__center {
+        justify-content: center;
+    }
+    
+    .apps_left-v2 h2 {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .price_blk p span {
+        font-size: 28px;
+    }
+    
+    .price_blk h5 {
+        font-size: 15px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .sec_title h2 {
+        font-size: 28px;
+    }
+    
+    .input_blk {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    
+    .contact-form {
+        margin-inline: auto;
+    }
+    
+    .input_blk.text-area {
+        flex: 0 0 100%;
+    }
+    
+    .input_blk label {
+        margin-bottom: 5px;
+    }
+    
+    .contact-Area .container {
+        max-width: 400px;
+    }
+    
+    .contact-Area {
+        padding: 70px 0;
+    }
+    
+    .contact-Area .common-content span {
+        margin-top: 30px;
+    }
+    section.hero-Area.pt-5.mb-5 {
+        margin-bottom: 0px !important;
+    }
+    .Farmacia_slider .slide-item {
+        width: 100%;
+    }
+    .digital_content {
+        max-width: 360px;
+        margin-inline: auto;
+    }
+
+.mb_100 {
+    margin-bottom: 60px;
+}
+.Encuentra_content .special__search {
+    flex-direction: unset;
+    align-items: center;
+}
+
+.Encuentra_content .special__search button {
+    width: max-content;
+    flex-shrink: 0;
+    width: 44px;
+    margin-top: 0;
+    margin-left: 12px;
+}
+}
+

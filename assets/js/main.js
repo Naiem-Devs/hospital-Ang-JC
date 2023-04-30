@@ -112,10 +112,11 @@
                     stagePadding: 100,
                 },
                 1200: {
-                    items: 2,
+                    items: 1,
                     margin: 14,
-                    stagePadding: 120,
+                    stagePadding: 130,
                 },
+            
                 1360: {
                     items: 2,
                     margin: 20,
@@ -151,7 +152,7 @@
                     stagePadding: -0,
                 },
                 991: {
-                    items: 2,
+                    items: 1,
                     margin: 12,
                     stagePadding: 0,
                 },

@@ -1627,10 +1627,18 @@ a.common-btn.thm_btn {
     top: 15px;
     color: #fff;
   }
-  .price_blk i {
+  .price_blk > i {
     display: block;
     position: relative;
+    max-height: 270px;
+    overflow: hidden;
+    border-radius: 20px;
   }
+
+.price_blk > i img {
+    width: 100%;
+    height: 100%;
+}
 /*----------------------  area end ----------------------*/
 
 
@@ -1820,7 +1828,7 @@ a.common-btn.thm_btn {
 }
 .Medi__pd__wrp {
 }
-.medi__blk {padding: 24px;margin-bottom: 20px;}
+.medi__blk {padding: 24px;margin-bottom: 20px;max-width: 290px;margin-inline: auto;}
 
 .medi__blk > i {
     width: 240px;
@@ -1828,7 +1836,7 @@ a.common-btn.thm_btn {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #DADADA;
+    /* border: 1px solid #DADADA; */
     border-radius: 17px;
     overflow: hidden;
 }
