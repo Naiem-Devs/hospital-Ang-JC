@@ -1518,6 +1518,132 @@ a.common-btn.thm_btn {
 
 
 /*----------------------  area Start ----------------------*/
+.product-Area{}
+.product_wrp {
+    max-width: 1024px;
+    margin-inline: auto;
+}
+.product_blk{
+    background: #F6F6F6;
+    border-radius: 20px;
+    padding: 24px;
+    margin-bottom: 25px;
+    min-height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sec_title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000;
+  }
+
+.pd_text p {
+    font-size: 13px;
+}
+
+.pd_text h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.pd_text i {
+    background-color: #fff;
+    width: 73px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.product_blk {}
+
+.product_blk a {display: inline-block;width: max-content;}
+
+.price_blk{}
+
+
+.price_blk ul li {
+    display: inline-block;
+    list-style: none;
+  }
+  .price_blk ul {
+    padding: 0;
+    margin-top: 16px;
+  }
+  .price_blk h5 {
+    font-size: 17px;
+    font-weight: 600;
+    height: 60px;
+    margin-bottom: 0;
+  }
+
+.price_blk p {margin-bottom: 0;}
+.price_blk p small {
+  display: block;
+  font-size: 12px;
+}
+.price_blk p span {
+  font-size: 35px;
+  color: #0AB49F;
+  font-weight: 600;
+}
+
+.fav {
+    text-decoration: none;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #fff;
+  }
+  .price_blk i {
+    display: block;
+    position: relative;
+  }
+/*----------------------  area end ----------------------*/
+
+
+
+/*----------------------  area Start ----------------------*/
+.mao-v2 .map__title .map__contact {
+    justify-content: center;
+  }
+  .mao-v2 .map__title {
+    text-align: center;
+  }
+  
+.mao-v2 .hospital__inner_blkk {
+    padding-bottom: 30px;
+  }
+/*----------------------  area end ----------------------*/
+
+
+/*----------------------  area Start ----------------------*/
+.apps_left-v2 h2{width: 350px;}
+.apps_left-v2{
+    max-width: 312px;
+}
+.apps_left-v2 b{
+    font-size: 15px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 10px;
+    display: block;
+}
+.apps_left-v2 h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #515151;
+}
+.app-wrapper.v-2{
+    padding: 70px 0;
+}
 /*----------------------  area end ----------------------*/
 
 
@@ -1526,20 +1652,51 @@ a.common-btn.thm_btn {
 
 
 /*----------------------  area Start ----------------------*/
-/*----------------------  area end ----------------------*/
 
 
-/*----------------------  area Start ----------------------*/
 .contact-Area {
-}
-.common-content {
-}
+    padding: 100px 0;
+  }
 .contact-form {
-}
-.input_blk {
-}
-.text-area {
-}
-.common-btn {
-}
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1020px;
+  }
+  .input_blk {
+    flex: 0 0 29%;
+    margin-bottom: 35px;
+  }
+  .input_blk label {
+    font-size: 12px;
+    color: #515151;
+    display: block;
+    line-height: 2;
+    margin-bottom: 10px;
+  }
+  .input_blk.text-area {
+    flex: 0 0 65%;
+  }
+  .input_blk input::placeholder,.input_blk textarea::placeholder {
+    font-size: 12px;
+  }
+  .input_blk input,.input_blk textarea {
+    width: 100%;
+    border: 1px solid #515151;
+    border-radius: 5px;
+    padding: 0 20px;
+    height: 48px;
+  }
+  .input_blk textarea{
+    padding-top: 20px;
+    height: 240px;
+  }
+  .contact-Area .common-content span {
+    font-size: 15px;
+    font-weight: 600;
+    color: #515151;
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 50px;
+  }
 /*----------------------  area end ----------------------*/
