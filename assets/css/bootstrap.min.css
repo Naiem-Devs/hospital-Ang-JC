@@ -4996,7 +4996,7 @@ fieldset:disabled .btn {
  background-color:#fff;
  background-clip:padding-box;
  border:1px solid rgba(0,0,0,.2);
- border-radius:.3rem;
+ border-radius: 20px;
  outline:0
 }
 .modal-backdrop {
@@ -5035,7 +5035,6 @@ fieldset:disabled .btn {
 .modal-body {
  position:relative;
  flex:1 1 auto;
- padding:1rem
 }
 .modal-footer {
  display:flex;

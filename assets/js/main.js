@@ -73,6 +73,60 @@
         });
 
 
+        $(".Farmacia_slider").owlCarousel({
+            items: 1,
+            nav: false,
+            dot: false,
+            loop: true,
+            margin: 25,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            smartSpeed: 1000,
+            center: true,
+            stagePadding: -50,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 12,
+                    stagePadding: 50,
+                },
+                575: {
+                    items: 1,
+                    margin: 12,
+                    stagePadding: 60,
+                },
+                750: {
+                    items: 1,
+                    margin: 12,
+                    stagePadding: 60,
+                },
+                768: {
+                    items: 1,
+                    stagePadding: 12,
+                    stagePadding: 150,
+                },
+                991: {
+                    items: 2,
+                    margin: 12,
+                    stagePadding: 100,
+                },
+                1200: {
+                    items: 2,
+                    margin: 14,
+                    stagePadding: 120,
+                },
+                1360: {
+                    items: 2,
+                    margin: 20,
+                    stagePadding: 0,
+                }
+            }
+
+
+        });
+
+
         $(".service-slider-two").owlCarousel({
             items: 2,
             nav: false,

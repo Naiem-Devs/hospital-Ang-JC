@@ -49,6 +49,9 @@ body {
 a:hover {
     text-decoration: none
 }
+.mb_100{
+    margin-bottom: 100px;
+}
 
 /*---------------------- Header area start ----------------------*/
 
@@ -180,6 +183,10 @@ a:hover {
     color: #000000;
     text-decoration: none;
     transition: .3s;
+}
+
+.header-nav ul li a.active {
+    color: #266AEA;
 }
 
 .header-nav ul li a:hover {
@@ -320,6 +327,22 @@ a:hover {
 .slider-area {
     padding-top: 60px;
     padding-bottom: 80px;
+}
+
+section.slider-area.v2 .slide-item {
+    height: 500px;
+    /* height: 100%; */
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+section.slider-area.v2 .owl-dots {
+    padding-top: 50px;
+}
+
+section.slider-area.v2 .slide-item img {
+    object-fit: unset;
+    height: 100%;
 }
 
 .owl-dots {
@@ -877,6 +900,8 @@ a:hover {
 
 .app_stor {
     margin: 20px 0 35px;
+    display: flex;
+    align-items: center;
 }
 
 .common-btn {}
@@ -1647,11 +1672,7 @@ a.common-btn.thm_btn {
 /*----------------------  area end ----------------------*/
 
 
-/*----------------------  area Start ----------------------*/
-/*----------------------  area end ----------------------*/
-
-
-/*----------------------  area Start ----------------------*/
+/*---------------------- contact area Start ----------------------*/
 
 
 .contact-Area {
@@ -1682,7 +1703,7 @@ a.common-btn.thm_btn {
   }
   .input_blk input,.input_blk textarea {
     width: 100%;
-    border: 1px solid #515151;
+    border: 1px solid rgb(81 81 81 / 50%);
     border-radius: 5px;
     padding: 0 20px;
     height: 48px;
@@ -1699,4 +1720,142 @@ a.common-btn.thm_btn {
     display: block;
     margin-top: 50px;
   }
-/*----------------------  area end ----------------------*/
+/*----------------------contact  area end ----------------------*/
+
+
+
+
+/*----------------------Farmacia_slider  area Start ----------------------*/
+.Farmacia_slider .owl-dots{
+    display: none;
+}
+
+.Farmacia_slider .slide-item {
+    width: 930px;
+}
+
+.Farmacia-text {
+    padding: 50px 0;
+    text-align: center;
+    max-width: 870px;
+    margin-inline: auto;
+}
+
+.Farmacia-text i {
+    display: block;
+    margin-bottom: 30px;
+}
+
+/*----------------------Farmacia_slider  area end ----------------------*/
+
+
+
+/*----------------------Encuentra  area Start ----------------------*/
+.Encuentra-Area {
+}
+.Encuentra_content {max-width: 1030px;margin-inline: auto;background: #F6F6F6;border-radius: 20px;padding: 25px;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+
+.Encuentra_content .special__search input {
+    width: 100%;
+    max-width: 570px;
+    display: block;
+}
+
+.Encuentra_content > a {
+    margin-top: 20px;
+}
+.Encuentra_content .special__search {width: 100%;justify-content: center;}
+.digital_content {max-width: 780px;margin-inline: auto;/* margin: 100px auto; */}
+
+.digital_content .service-card .common-btn {
+    background: #266AEA;
+    color: #fff;
+}
+
+.digital_content .service-card {
+    align-items: unset;
+    margin-top: 30px;
+}
+
+.digital_content .service-card-content p {
+    color: #000;
+}
+
+.digital_content .service-card-content h5 {
+    color: #000;
+}
+
+/*---------------------- Encuentra area end ----------------------*/
+
+
+
+/*----------------------Medicamentos  area Start ----------------------*/
+
+.Medicamentos-top {height: 200px;background: url(../img/medi-bg.png);background-size: cover;}
+.med_text {margin-top: 50px;}
+
+.med_text h2 {
+    color: #fff;
+}
+.common-content {
+}
+.Medi-Product-Area {padding-bottom: 60px;}
+
+#mediModal .modal-dialog {
+    max-width: 600px;
+}
+
+#mediModal {}
+
+#mediModal button.btn-close {
+    position: absolute;
+    right: 15px;
+    opacity: 1;
+    top: 15px;
+}
+.Encuentra_content {
+}
+.Medi_search {margin-top: -50px;max-width: 750px;margin-bottom: 40px;}
+.special__search {
+}
+.Medi__pd__wrp {
+}
+.medi__blk {padding: 24px;margin-bottom: 20px;}
+
+.medi__blk > i {
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #DADADA;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.medi__blk > i img {
+    max-width: 100%;
+}
+.medi_blk__text {margin-top: 22px;}
+
+.medi_blk__text a {
+    background: #F6F6F6;
+    color: #266AEA;
+}
+
+.medi_blk__text a:hover {
+    background: #266AEA;
+    color: #fff;
+}
+
+.medi_blk__text p {
+    font-size: 13px;
+}
+
+.medi_blk__text h5 {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/*----------------------Medicamentos  area end ----------------------*/
